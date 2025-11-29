@@ -1,0 +1,289 @@
+# ==========================================
+# FICHIERS SENSIBLES - NE JAMAIS COMMITER
+# ==========================================
+
+# Variables d'environnement (CRITIQUE)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Credentials et secrets
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# ==========================================
+# PYTHON
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pythonenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==========================================
+# BASE DE DONNÉES
+# ==========================================
+
+# Fichiers de base de données locaux
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Dumps et backups
+*.sql
+*.dump
+backups/
+*.backup
+
+# ==========================================
+# IDE ET ÉDITEURS
+# ==========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# JetBrains
+.idea/
+*.iml
+out/
+
+# ==========================================
+# SYSTÈME D'EXPLOITATION
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==========================================
+# LOGS
+# ==========================================
+
+# Log files
+*.log
+logs/
+*.log.*
+log/
+
+# ==========================================
+# DOCKER (optionnel)
+# ==========================================
+
+# Si vous ne voulez pas commiter les fichiers Docker locaux
+# docker-compose.override.yml
+
+# ==========================================
+# FICHIERS TEMPORAIRES
+# ==========================================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+tmp/
+temp/
+
+# ==========================================
+# DOCUMENTATION GÉNÉRÉE
+# ==========================================
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# ==========================================
+# FICHIERS DE PROJET SPÉCIFIQUES
+# ==========================================
+
+# Anciens fichiers (migration)
+# app/heros.py.old
+# app/classes.py.old
+# seed_database.py
+
+# Fichiers de test locaux
+test_local.py
+scratch.py
+playground.py
+
+# Données de test
+test_data/
+sample_data/
+
+# ==========================================
+# CACHE ET FICHIERS BUILD
+# ==========================================
+
+.cache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ==========================================
+# AUTRES
+# ==========================================
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Certificats (si générés localement)
+*.csr
+*.der
+*.p12
+*.pfx
+
+# Notes personnelles
+TODO.txt
+NOTES.md
+notes/
+#management fichier 
+ARCHITECTURE.md
+DATABASE_MANAGEMENT.md
+MIGRATION_GUIDE.md
+QUICKSTART.md
+README.md
